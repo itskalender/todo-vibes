@@ -6,7 +6,7 @@ This project was coded to sharpen my skills on React, Redux, and MUI.
 
 ## Demo
 
-- [Here]() you can find the final version of the project.
+- [Here](https://todo-vibes.netlify.app/) you can find the final version of the project.
 
 ## Installation
 
