@@ -1,0 +1,25 @@
+.filter-todo {
+  width: 100%;
+
+  display: flex;
+  align-items: stretch;
+
+  margin-bottom: 1rem;
+
+  > div {
+    width: 25%;
+
+    > h5 {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .filter-todo__actions,
+  .filter-todo__remainings,
+  .filter-todo__filter-by-status,
+  .filter-todo__filter-by-color {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

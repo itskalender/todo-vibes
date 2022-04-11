@@ -1,0 +1,21 @@
+.todos {
+  width: 100%;
+
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+
+  border-bottom: 1px solid $border-color;
+
+  > div:last-of-type {
+    margin: 0;
+  }
+
+  .no-todo-message {
+    font-family: 'Great Vibes', cursive;
+
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    text-align: center;
+  }
+}

@@ -1,0 +1,16 @@
+.todo-table__footer {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 0.65rem;
+  font-weight: 500;
+
+  color: $footer-font-color;
+
+  font-family: 'Nunito', sans-serif;
+
+  margin-bottom: 0.1rem;
+}
