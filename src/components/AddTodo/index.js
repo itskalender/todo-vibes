@@ -20,6 +20,12 @@ function AddTodo() {
     setTodo('');
   };
 
+  const handleKeyDown = e => {
+    if (e.key === 'Enter') {
+      handleClick();
+    }
+  };
+
   return (
     <TextField
       fullWidth
@@ -32,6 +38,7 @@ function AddTodo() {
       }}
       value={todo}
       onChange={handleChange}
+      onKeyDown={handleKeyDown}
       InputProps={{
         endAdornment: (
           <InputAdornment position="end">
